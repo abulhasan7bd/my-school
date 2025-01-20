@@ -37,7 +37,7 @@ The source code for this project is hosted on GitHub. Feel free to explore, fork
 ---
 
 ## 📸 Screenshots
-![My School Website](screenshot.png)
+![My School Website](./assets/Screenshot_1.png)
 
 ---
 
