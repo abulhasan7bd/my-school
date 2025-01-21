@@ -145,6 +145,7 @@ a.link4 {
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+  margin-top: 13px;
 }
 .hero-right {
   flex: 1;
@@ -560,4 +561,45 @@ footer {
     font-size: 20px;
     font-weight: 400;
   }
+  .stories-hide {
+    display: none;
+  }
+  .stories-content h2 {
+    font-size: 3rem;
+  }
+  .sotories-right {
+    grid-row-gap: 1rem;
+  }
+  .stories-colum {
+    grid-template-columns: 1fr;
+    grid-column-gap: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .sotories-left1 {
+    width: 100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    height: auto;
+  }
+  .sotories-left1 .stories-image-content {
+    height: auto;
+    width: 100%;
+  }
+  .sotories-left1 .stories-image-content p {
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  .stories-image {
+    height: fit-content;
+  }
+  .sotories-left1 .stories-image {
+    height: auto;
+}
 }
