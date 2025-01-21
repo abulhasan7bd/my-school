@@ -273,10 +273,8 @@ a.link4 {
 /* Stories Section  */
 .sotories {
   padding: 100px 0;
-  background-image: url("https://genppt.com/landing/genppt-bg.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./assets/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
 .stories-content h2 {
   text-align: center;
@@ -303,14 +301,41 @@ a.link4 {
   background: rgb(255, 255, 255);
 }
 
+.sotories-left .stories-image > button {
+  width: 230px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+  transform: translate(-50%, 33px);
+  background-color: #3cd8e8;
+  color: black;
+}
 .stories-image {
   height: 330px;
+  text-align: center;
+  position: relative;
 }
 .stories-image img {
   width: 100%;
   height: auto;
   border-radius: 16px 16px 0 0;
   object-fit: cover;
+}
+.stories-image button {
+  position: absolute;
+  color: #fff;
+  width: 170px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 40px;
+  background-color: #95b226;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 19px);
 }
 .stories-image-content {
   padding: 40px;
@@ -355,6 +380,12 @@ a.link4 {
   height: 337px;
 }
 
+.view-all {
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  text-align: center;
+  margin: 50px auto 0;
+}
 /* Footer Section  */
 footer {
   background-color: var(--sky-blue);
@@ -452,7 +483,7 @@ footer {
     left: 0;
     bottom: 0;
     height: 1px;
-    background-color: black;
+    background-color: rgb(254, 163, 1);
     width: 200%;
     transform: translate(-100px);
   }
@@ -581,6 +612,10 @@ footer {
     font-family: Font Awesome 5 Brands;
     font-size: 20px;
     font-weight: 400;
+  }
+  .sotories{
+    padding: 50px 0;
+  
   }
   .stories-hide {
     display: none;
