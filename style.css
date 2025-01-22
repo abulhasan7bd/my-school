@@ -467,6 +467,8 @@ footer {
 .social-links i:nth-of-type(4) {
   background-color: rgb(221, 75, 57);
 }
+
+
 @media only screen and (max-width: 576px) {
   .container {
     padding: 0 3%;
