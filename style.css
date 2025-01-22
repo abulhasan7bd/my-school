@@ -613,9 +613,8 @@ footer {
     font-size: 20px;
     font-weight: 400;
   }
-  .sotories{
+  .sotories {
     padding: 50px 0;
-  
   }
   .stories-hide {
     display: none;
@@ -659,5 +658,17 @@ footer {
   }
   .sotories-left1 .stories-image {
     height: auto;
+  }
+}
+
+@media only screen and (width < 400px) {
+  .stories-image button {
+    width: 150px;
+    font-size: 13px;
+    font-weight: 600;
+    transform: translate(-50%, 15px);
+  }
+  .stories-image-content p {
+    margin: 15px 0;
   }
 }
